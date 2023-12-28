@@ -5,7 +5,7 @@ updating a program given a natural language instruction. The benchmark contains 
 hand-crafted Python programs with `before` and `after` code blocks,
 two types of natural language instructions (descriptive and lazy), and a hidden test suite.
 
-See [our paper](https://federico.codes/assets/papers/canitedit.pdf) for more.
+#### See [our paper](https://arxiv.org/abs/2312.12450) for more.
 
 This repository provides code for evaluating models on the benchmark, and the code to reproduce
 EditPackFT and EditCoder, a dataset and a LLM built for instructional code editing.
@@ -37,7 +37,7 @@ If you use this code or the CanItEdit benchmark, please cite our paper:
 ```
 @misc{canitedit,
   title = {Can It Edit? Evaluating the Ability of Large Language Models to Follow Code Editing Instructions},
-  author = {Federico Cassano and Luisa Li and Akul Sethi and Noah Shinn and Abby Brennan-Jones and Anton Lozhkov and Carolyn Anderson and Arjun Guha},
+  author = {Federico Cassano and Luisa Li and Akul Sethi and Noah Shinn and Abby Brennan-Jones and Anton Lozhkov and Carolyn Jane Anderson and Arjun Guha},
   year = {2023},
   month = dec,
 }
